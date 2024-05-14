@@ -1382,7 +1382,7 @@ button {
 @media (min-width: 992px) {
 	.button {
 		min-width: 230px;
-		
+		padding: 25px 50px;
 	}
 }
 
@@ -1859,6 +1859,8 @@ button {
 .button-xs {
 	padding: 12px 25px;
 	font-size: 12px;
+	line-height: 2.17;
+	min-width: auto;
 	font-size: 14px;
 }
 
@@ -4853,9 +4855,9 @@ h3 + img {
 	margin-top: 32px;
 }
 
-/* * + .button {
-	
-} */
+* + .button {
+	margin-top: 30px;
+}
 
 * + .button-outline-2 {
 	margin-top: 0;
